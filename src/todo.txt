@@ -1,0 +1,54 @@
+Java Compilation
+    -Platform independence/WORA
+    -Command line arguments
+
+Terminology and Conventions
+    -Class vs Object/Instance
+    -Primitive vs Reference types
+    -Methods and signature
+
+Inheritance
+    -Single
+    -Multi Level
+    -Hierarchical
+    -Multiple(Cannot do in Java)
+    -Simulating multiple inheritance
+
+Polymorphism
+    -Overriding(Object adjusts according to outside world)
+    -Overloading(Outside world adjusts according to the object)
+
+Abstraction(Implementation hiding)
+    -Abstract Classes(Hybrid of interface and normal classes)
+        Use when,
+        You want to share code among several closely related classes.
+        You expect that classes that extend your abstract class have many common methods or fields, or require access modifiers other than public (such as protected and private).
+        You want to declare non-static or non-final fields. This enables you to define methods that can access and modify the state of the object to which they belong.
+    -Interfaces(100% abstract)
+        Use when,
+        You expect that unrelated classes would implement your interface. For example, the interfaces Comparable and Cloneable are implemented by many unrelated classes.
+        You want to specify the behavior of a particular data type, but not concerned about who implements its behavior.
+        You want to take advantage of multiple inheritance of type.
+
+Encapsulation(Data hiding)
+    -Access modifiers (private, protected, (default-modifier), public)
+    -Immutability
+
+Errors and Exceptions
+    Exception
+        -Error
+        -Checked Exception/Compile-time exceptions
+        -Unchecked Exception/Runtime-exceptions
+
+    Handling
+        -If handling
+        -try, catch, throw handling
+        finally handling
+        -throws handling
+
+Input/Output
+    -Streams
+        -ByteStreams
+        -CharacterStreams
+
+    -User input
